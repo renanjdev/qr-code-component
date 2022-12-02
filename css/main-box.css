@@ -1,7 +1,7 @@
 .main-box {
     text-align: center;
     width: 320px;
-    height: 475px;
+    height: 500px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px; 
 }
@@ -11,6 +11,6 @@
     width: 290px;
     height: 290px;
     margin-top: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
      
 }
