@@ -1,10 +1,23 @@
-.main-section {
-    display: flex;
+.body {
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex; 
+    justify-content: center; 
     align-items: center;
-    justify-content: center;
     flex-direction: column;
-    height: 98vh;
-       
+    
+}
 
+.main-section {
+    background-color: hsl(0, 0%, 100%);
+    margin: 1.5em;
+    width: 21em;
+    border-radius: 15px;
+            
+}
+
+.main-section.-qrcode {
+    width: 18em;
+    border-radius: 10px;
     
 }
