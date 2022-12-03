@@ -10,14 +10,17 @@
 
 .main-section {
     background-color: hsl(0, 0%, 100%);
-    margin: 1.5em;
+    margin: 14px;    
     width: 21em;
     border-radius: 15px;
+    
             
 }
 
 .main-section.-qrcode {
-    width: 18em;
+    width: 310px;
     border-radius: 10px;
+    
+
     
 }
