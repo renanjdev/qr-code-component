@@ -1,21 +1,24 @@
 body {
     background-color: hsl(212, 45%, 89%);
-    height: 100vh;
     display: flex; 
     justify-content: center; 
     align-items: center;
-    flex-direction: column;  
+    flex-direction: column; 
+    height: 100vh; 
 }
 
 main {
     background-color: hsl(0, 0%, 100%);
-    width: 21em;
+    width: 19.7em;
+    height: 31em;
     border-radius: 15px;  
+    border-width: 2px;
+    
 }
 
 .main.-qrcode {
-    margin: 13px;
-    width: 310px;
+    margin: 0.85em;
+    width: 18em;
     border-radius: 10px;
 }
 
@@ -23,8 +26,9 @@ main {
     font-family: Outfit, sans-serif;
     font-weight: 700;
     font-size: 1.4em;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
+    margin-left: 1.3em;
+    margin-right: 1.3em;
+    margin-bottom: 15;
     text-align: center;
     color: hsl(218, 44%, 22%);
     line-height: 30px;
@@ -36,9 +40,9 @@ main {
     color:  gray;
     line-height: normal;
     padding-top: 0;
-    padding-right: 6px;
-    padding-left: 6px;
-    padding-bottom: 26px;
+    padding-right: 4px;
+    padding-left: 4px;
+    
 }
 
 footer {
